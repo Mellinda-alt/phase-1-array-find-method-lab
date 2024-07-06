@@ -2,9 +2,9 @@
 
 function superbowlWin(recordArray) {
     
-    const win = recordArray.find(record => record.result === "W");
+    const winGame = recordArray.find(record => record.result === "W");
     
-    return win ? win.year : undefined;
+    return winGame ? winGame.year : undefined;
 }
 
 
